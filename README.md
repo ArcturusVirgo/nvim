@@ -10,6 +10,7 @@ nvim
 ├─lua
 │  │  basic.lua
 │  │  colorscheme.lua
+│  │  compile.lua
 │  │  fix-yank.lua
 │  │  keybindings.lua
 │  │  plugins.lua
@@ -30,8 +31,8 @@ nvim
 │          alpha.lua
 │          bufferline.lua
 │          Comment.lua
+│          galaxyline.lua
 │          indent-blankline.lua
-│          lualine.lua
 │          nvim-autopairs.lua
 │          nvim-tree.lua
 │          nvim-treesitter.lua
