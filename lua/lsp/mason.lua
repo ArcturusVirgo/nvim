@@ -45,7 +45,7 @@ require("mason").setup({
         -- and is not recommended.
         --
         -- Example: { "--proxy", "http://mirrors.aliyun.com/pypi/simple/" }
-        install_args = { "--proxy", "http://mirrors.aliyun.com/pypi/simple/" }
+        -- install_args = { "--proxy", "http://mirrors.aliyun.com/pypi/simple/" }
     },
 
     -- Controls to which degree logs are written to the log file. It's useful to set this to vim.log.levels.DEBUG when
