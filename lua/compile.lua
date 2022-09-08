@@ -17,6 +17,12 @@ func! CompileRunGcc()
         :sp
         :res -10
         :term pwsh.exe -c python ./%
+    elseif &filetype == 'fortran'
+        exec "!gfortran % -o %<"
+        set splitbelow
+        :sp
+        :res -10
+        :term pwsh.exe -c ./%<
     endif
 endfunc
 ]])
