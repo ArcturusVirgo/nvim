@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Zavijava\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\formatter.nvim",
     url = "https://github.com/mhartington/formatter.nvim"
   },
+  ["galaxyline.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Zavijava\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\galaxyline.nvim",
+    url = "https://github.com/NTBBloodbath/galaxyline.nvim"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Zavijava\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indent-blankline.nvim",
@@ -128,16 +133,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Zavijava\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspsaga.nvim",
     url = "https://github.com/kkharji/lspsaga.nvim"
-  },
-  ["lualine-lsp-progress"] = {
-    loaded = true,
-    path = "C:\\Users\\Zavijava\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine-lsp-progress",
-    url = "https://github.com/arkav/lualine-lsp-progress"
-  },
-  ["lualine.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Zavijava\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
-    url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,

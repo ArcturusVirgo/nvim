@@ -12,3 +12,5 @@ require("colorscheme")
 require("plugin-config.setup")
 -- lsp
 require("lsp.setup")
+
+require("compile")
