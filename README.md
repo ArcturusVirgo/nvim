@@ -119,14 +119,13 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvi
 
 |         文件名称         | 作用  |
 | :----------------------: | :---: |
-|  `cmp.lua`             | / |
+|  `cmp.lua`             | 自动补全 |
 |  `lsp-status.lua`    | / |
-|  `lspconfig.lua`    | / |
-|  `lspsaga.lua`     | / |
-|  `mason-lspconfig.lua` | / |
+|  `lspconfig.lua`    | 自动加载LSP |
+|  `lspsaga.lua`     | 美化LSP错误提示 |
+|  `mason-lspconfig.lua` | 自动下载LSP |
 | `mason.lua`      | LSP服务器管理 |
 |  `null-ls.lua`     | 格式化 |
-|  `ui.lua`        | 美化错误提示 |
 
 以上文件均在LSP相关插件配置入口文件`setup.lua`中引入
 
@@ -153,7 +152,6 @@ nvim
 │  │      mason.lua
 │  │      null-ls.lua
 │  │      setup.lua
-│  │      ui.lua
 │  │
 │  └─plugin-config
 │          alpha.lua
