@@ -60,6 +60,10 @@ map("n", "<A-l>", "<C-w>l", opt)
 map("n", "<A-=>", ":sp | terminal D:\\PowerShell\\PowerShell-7.2.6-win-x64\\pwsh.exe -Nologo<CR>a", opt)
 map("n", "<A-=>v", ":vsp | terminal D:\\PowerShell\\PowerShell-7.2.6-win-x64\\pwsh.exe -Nologo<CR>a", opt)
 map("t", "<Esc>", "<C-\\><C-n>", opt)
+-- ctrl+D向下复制一行
+map("n", "<C-d>", "Y<End>p", opt)
+map("i", "<C-d>", "<Esc>Y<End>pi", opt)
+map("v", "<C-d>", "Ykp", opt)
 
 ------------------------------ 插件配置配置 ------------------------------
 ------------------------------ nvim-tree
