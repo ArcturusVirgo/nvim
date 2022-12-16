@@ -28,7 +28,8 @@ map("v", "K", "10j", opt) -- K:10x下
 map("v", "J", "10h", opt) -- J:10x左
 map("v", "L", "10l", opt) -- L:10x右
 -- 写入相关
-map("n", "h", "i", opt) -- h:插入写
+map("n", "a", "i", opt) -- a:插入写
+map("n", "h", "a", opt) -- h:追加写
 -- 缩进控制
 map("n", "<Tab>", "V>", opt)
 map("n", "<S-Tab>", "V<", opt)
