@@ -79,7 +79,7 @@ packer.startup({
 		-- 匹配括号
 		use("windwp/nvim-autopairs")
 		-- 引号切换
-		use("kylechui/nvim-surround")
+		-- use("kylechui/nvim-surround")
 	end,
 	config = {
 		-- 并发数限制
