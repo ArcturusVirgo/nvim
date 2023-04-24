@@ -31,6 +31,8 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```powershell
 # 使用国内源安装
 iwr -useb https://gitee.com/glsnames/scoop-installer/raw/master/bin/install.ps1 | iex
+# 如果报错，就是用下面这句
+iwr -useb get.scoop.sh -outfile 'install.ps1'
 # 使用默认源安装
 iwr -useb get.scoop.sh | iex
 # Scoop换源
